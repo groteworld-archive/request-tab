@@ -1,0 +1,14 @@
+{
+
+  "name": "RequestTab",
+  "description": "Quickly create RequestBin urls",
+
+  "version": "0.0.1",
+  "manifest_version": 2,
+
+  "browser_action": {
+    "default_title": "RequestTab",
+    "default_popup": "index.html"
+  }
+
+}

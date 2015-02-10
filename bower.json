@@ -1,0 +1,23 @@
+{
+  "name": "RequestTab",
+  "version": "0.0.1",
+  "authors": [
+    "Blake Grotewold <hello@grotewold.me>"
+  ],
+  "description": "Quickly create RequestBin urls",
+  "main": "index.html",
+  "keywords": [
+    "requestbin",
+    "chrome",
+    "chromium",
+    "addon",
+    "browser"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
