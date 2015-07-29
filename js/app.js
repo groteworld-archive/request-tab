@@ -1,8 +1,13 @@
+chrome.browserAction.setIcon({'path': 'logo-2x.png'});
+
 function createBin() {
     $('.get-link').text('Creating new bin...');
+
     $.ajax({'url': 'http://requestb.in/api/v1/bins', 'type': 'POST',
         'data': {'private': $('.private').prop("checked")},
+
         'success': function(data) {
+            console.log(chrome);
             $('.get-container').slideUp();
 
             $('.inspect-code').text(data.name);
@@ -15,5 +20,3 @@ function createBin() {
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('.get-link').addEventListener('click', createBin);
 });
-
-chrome.browserAction.setIcon({'path': 'logo-2x.png'});

@@ -1,7 +1,7 @@
 {
 
   "name": "RequestTab",
-  "description": "Quickly create RequestBin urls",
+  "description": "Quickly create RequestBin bins",
 
   "version": "0.0.1",
   "manifest_version": 2,
@@ -9,6 +9,10 @@
   "browser_action": {
     "default_title": "RequestTab",
     "default_popup": "index.html"
-  }
+  },
 
+  "permissions": [
+    "sessions",
+    "tabs"
+  ]
 }
