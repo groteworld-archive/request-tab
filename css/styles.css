@@ -56,3 +56,12 @@
 	padding-right: -10px;
 	transition: margin 250;
 }
+
+.private {
+	margin-top: 15px;
+}
+
+.private-details {
+	font-size: 12px;
+	color: #999;
+}
