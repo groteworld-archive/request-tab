@@ -8,7 +8,7 @@ Quickly create [RequestBin](http://requestb.in) urls in a Google Chrome Extensio
 How Do I Get It?
 ----------------
 
-[Chrome Web Store]()
+[Chrome Web Store](https://chrome.google.com/webstore/detail/requesttab/mdamghbpbfendfbahmnflbmhjegbjoeb)
 
 or
 
