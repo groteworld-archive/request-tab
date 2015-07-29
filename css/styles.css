@@ -1,0 +1,58 @@
+.get-container {
+	text-align: center
+}
+
+.get-link {
+	-webkit-font-smoothing: antialiased;
+	background-color: rgb(46, 204, 113);
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.0980392));
+	border: 0;
+	border-radius: 4px;
+	box-shadow: rgb(37, 162, 90) 0px 0px 0px 1px, rgba(0, 0, 0, 0.0980392) 0px 1px 2px 0px, rgba(255, 255, 255, 0.2) 0px 1px 1px 0px inset;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-size: 17.5px;
+	font-weight: bold;
+	line-height: 20px;
+	margin: 0;
+	padding: 11px 19px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
+	vertical-align: middle;
+	width: 170px;
+}
+
+.inspect-container {
+	-webkit-font-smoothing: antialiased;
+	border: 0;
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 22px;
+	margin: 0;
+	padding: 11px 19px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px;
+	vertical-align: middle;
+	width: 170px;
+}
+
+.inspect-code {
+	cursor: text;
+	padding-right: 10px;
+}
+
+.inspect-link {
+	cursor: pointer;
+}
+
+.inspect-link:hover {
+	padding-right: -10px;
+	transition: margin 250;
+}
