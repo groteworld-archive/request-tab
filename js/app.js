@@ -15,12 +15,12 @@ function createBin() {
         'data': {'private': $('.private').prop("checked")},
 
         'success': function(data) {
-            console.log(chrome);
             $('.get-container').slideUp();
 
             var binUrl = "http://requestb.in/" + data.name;
-            copyToClipboard(binUrl);
 
+
+            $('.inspect-copy').click(function() { copyToClipboard(binUrl); });
             $('.inspect-code').text(data.name);
             $('.inspect-link').click(function() { window.open(binUrl + "?inspect"); });
             $('.inspect-container').slideDown();

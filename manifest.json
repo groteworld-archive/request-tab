@@ -17,6 +17,7 @@
 
   "permissions": [
     "cookies",
-    "http://requestb.in/"
+    "http://requestb.in/",
+    "clipboardWrite"
   ]
 }
