@@ -48,13 +48,20 @@
 	padding-right: 10px;
 }
 
-.inspect-link {
+.inspect-link, .inspect-copy {
 	cursor: pointer;
 }
 
 .inspect-link:hover {
 	padding-right: -10px;
 	transition: margin 250;
+}
+.inspect-copy:hover {
+    margin-top: -10px;
+}
+
+.inspect-copy:active {
+    margin-top: -5px;
 }
 
 .private {
