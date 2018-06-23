@@ -1,6 +1,8 @@
 RequestTab
 ==========
 
+**DEAD** [Publicly hosted Requestb.in is no more](https://github.com/Runscope/requestbin#readme)
+
 Quickly create [RequestBin](http://requestb.in) urls in a Google Chrome Extension
 
 ![screenshot](promo440.png)
